@@ -58,19 +58,6 @@
       scroll-behavior: smooth;
     }
   </style>
-  <style>
-    .swiper {
-      width: 100%;
-      height: 500px;
-    }
-
-    .swiper-slide img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 12px;
-    }
-  </style>
 </head>
 
 <body class="font-sans text-gray-800 antialiased pt-20">
@@ -401,26 +388,6 @@
       } else {
         menu.classList.add('hidden');
       }
-    });
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      loop: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
     });
   </script>
 </body>
